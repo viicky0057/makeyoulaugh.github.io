@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troll me </title>
+
+    <meta name="theme-color" content="rgb(129 140 248)">
+    <link rel="stylesheet" href="assets/index.28570eb2.css">
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="lg:hidden">
+        <div class="w-screen bg-indigo-400  h-16 flex justify-between flex-row items-center sticky top-0 Mobile-navBar lg:hidden">
+            <div class="w-fit relative p-2">
+                <img src="assets/react.31987f48.png" class="w-[45px] h-[45px] z-0 ">
+                <div class="w-[45px] h-[45px] absolute top-0 bg-transparent z-10"></div>
+            </div>
+            <div class="w-[40px] h-[30px] flex flex-col justify-between items-center cursor-pointer m-2 openMenu">
+                <div class="w-[90%] h-[2px] bg-white rounded"></div>
+                <div class="w-[90%] h-[2px] bg-white  rounded "></div>
+                <div class="w-[90%] h-[2px] bg-white rounded"></div>
+            </div>
+        </div>
+        <!-- menu  -->
+
+        <div id="universalCover" class="w-screen h-screen bg-transparent fixed top-0  z-[9] hidden">
+
+        </div>
+
+
+
+        <div class="w-[300px] h-screen bg-black fixed top-0 right-0 p-3 z-10 text-white overflow-x-hidden ease-in-out duration-500 overflow-y-auto menu translate-x-[+300px]">
+            <!-- close btn  -->
+            <div class="w-[38px] h-[35px] cursor-pointer absolute right-1 m-2 CloseMenu">
+                <div class="w-full bg-green-500 rounded-full h-[2px]   -rotate-45"></div>
+                <div class="w-full bg-green-500 rounded-full h-[2px]   rotate-45"></div>
+            </div>
+            <div class="text-[16px] h-[30%] w-[100%] flex flex-col justify-between items-start py-[20px]">
+                <span class="cursor-pointer loginbtn">Login</span>
+                <span class="cursor-pointer signUp">Sign Up</span>
+                <span class="cursor-pointer about">About me</span>
+                <span class="cursor-pointer contact">Contact me</span>
+                <div><a href="//github.com/vickykr369" target="_blank">Source codes</a></div>
+            </div>
+            <div class="w-full text-center mt-[40px]">
+                <span class="text-cyan-300 text-center w-full mb-10">Follow me</span>
+                <div class="w-[70%] m-auto h-7 flex flex-row justify-between mt-5">
+                    <a href="//github.com/vickykr369"><img class="invert-[100] w-[25px] hover:scale-[1.2] duration-500 " src="assets/github.a5bb223f.svg"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100076992771479"><img class="invert-[100] w-[25px] hover:scale-[1.2] duration-500 " src="assets/facebook.eef9d9f5.svg"></a>
+                    <a href="//instagram.com/__vicky_36"><img class="invert-[100] w-[25px] hover:scale-[1.2] duration-500 " src="assets/instagram.29deb2cf.svg"></a>
+                    <a href="https://twitter.com/Vicky_Kr_Gupta"><img class="invert-[100] w-[25px] hover:scale-[1.2] duration-500 " src="assets/twitter.ace0e25d.svg"></a>
+
+                </div>
+            </div>
+            <!-- Logout -->
+            <div class="fixed bottom-0  p-4 text-red-400 cursor-pointer text-[20px] right-5">
+                <span>Logout</span> <img src="/assets/logoutBtn.46217331.svg" class="invert-[100] w-[30px] inline ">
+            </div>
+        </div>
+        <!-- Login from  -->
+        <div class="w-screen h-screen bg-transparent fixed top-0 flex justify-center items-center login scale-0 ease-in-out duration-500 z-[100]">
+            <div class="w-[80%] h-[50%]  rounded-md px-2 bg-white relative">
+                <!-- cancel btn  -->
+                <div class="h-[30px] w-[30px] absolute top-3 bg-transparent right-1 cursor-pointer cancel-Login">
+                    <div class="w-full h-[2px] bg-black rounded-sm -rotate-45"></div>
+                    <div class="w-full h-[2px] bg-black rounded-sm rotate-45"></div>
+                </div>
+                <!-- == -->
+                <form action="" id="LoginForm">
+                    <input type="text" required placeholder="Username" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] L-username">
+                    <input type="tel" required placeholder="Phone number" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] L-tel">
+                    <input type="password" required placeholder="password" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] L-password">
+                    <button type="submit" class="w-[50%] h-[30px] bg-green-500 mt-[20%] m-auto block rounded-sm hover:bg-green-600 duration-300">Login</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- End LOgin form  -->
+
+        <!-- Sign up form  -->
+        <div class="w-screen h-screen bg-transparent fixed top-0 flex justify-center items-center signupForm scale-0 ease-in-out duration-500 z-[100]">
+            <div class="w-[80%] h-[50%]  rounded-md px-2 bg-white relative">
+                <!-- cancel btn  -->
+                <div class="h-[30px] w-[30px] absolute top-3 bg-transparent right-1 cursor-pointer cancel-signup">
+                    <div class="w-full h-[2px] bg-black rounded-sm -rotate-45"></div>
+                    <div class="w-full h-[2px] bg-black rounded-sm rotate-45"></div>
+                </div>
+                <!-- == -->
+                <form action="" id="SignupForm">
+                    <input type="text" required placeholder="Enter your name" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] S-username">
+                    <input type="tel" required placeholder="Enter your phone number here" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] S-tel">
+                    <input type="email" required placeholder="Enter your email" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] S-email">
+                    <input type="password" required placeholder="Enter your password" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] S-password">
+                    <button type="submit" class="w-[50%] h-[30px] bg-green-500 mt-[20%] m-auto block rounded-sm hover:bg-green-600 duration-300">Sign up</button>
+                </form>
+            </div>
+
+        </div>
+        <!-- end sign up form -->
+
+    </div>
+</body>
+<script src="js/index.js"></script>
+
+
+</html>
