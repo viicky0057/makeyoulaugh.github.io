@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Troll me </title>
-
     <meta name="theme-color" content="rgb(129 140 248)">
-    <link rel="stylesheet" href="assets/index.28570eb2.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="assets/index.e8d23591.css">
+    <link rel="shortcut icon" href="assets/react.31987f48.png" type="image/x-icon">
+    <title> Under development </title>
+
 </head>
 
 <body class="overflow-x-hidden">
@@ -18,7 +20,7 @@
                 <img src="assets/react.31987f48.png" class="w-[45px] h-[45px] z-0 ">
                 <div class="w-[45px] h-[45px] absolute top-0 bg-transparent z-10"></div>
             </div>
-            <div class="w-[40px] h-[30px] flex flex-col justify-between items-center cursor-pointer m-2 openMenu">
+            <div class="w-[40px] h-[30px] flex flex-col justify-between items-center  cursor-pointer m-2 openMenu">
                 <div class="w-[90%] h-[2px] bg-white rounded"></div>
                 <div class="w-[90%] h-[2px] bg-white  rounded "></div>
                 <div class="w-[90%] h-[2px] bg-white rounded"></div>
@@ -32,13 +34,13 @@
 
 
 
-        <div class="w-[300px] h-screen bg-black fixed top-0 right-0 p-3 z-10 text-white overflow-x-hidden ease-in-out duration-500 overflow-y-auto menu translate-x-[+300px]">
+        <div class="w-[300px] h-screen bg-black fixed top-0 right-0 p-3  z-10 text-white overflow-x-hidden ease-in-out duration-500 overflow-y-auto menu translate-x-[+300px]">
             <!-- close btn  -->
             <div class="w-[38px] h-[35px] cursor-pointer absolute right-1 m-2 CloseMenu">
-                <div class="w-full bg-green-500 rounded-full h-[2px]   -rotate-45"></div>
+                <div class="w-full bg-green-500 rounded-full h-[2px]   -rotate-45 "></div>
                 <div class="w-full bg-green-500 rounded-full h-[2px]   rotate-45"></div>
             </div>
-            <div class="text-[16px] h-[30%] w-[100%] flex flex-col justify-between items-start py-[20px]">
+            <div class="text-[16px] h-[30%] w-[100%] flex flex-col justify-between items-start py-[20px] ">
                 <span class="cursor-pointer loginbtn">Login</span>
                 <span class="cursor-pointer signUp">Sign Up</span>
                 <span class="cursor-pointer about">About me</span>
@@ -57,11 +59,11 @@
             </div>
             <!-- Logout -->
             <div class="fixed bottom-0  p-4 text-red-400 cursor-pointer text-[20px] right-5">
-                <span>Logout</span> <img src="/assets/logoutBtn.46217331.svg" class="invert-[100] w-[30px] inline ">
+                <span>Logout</span> <img src="assets/logoutBtn.46217331.svg" class="invert-[100] w-[30px] inline ">
             </div>
         </div>
         <!-- Login from  -->
-        <div class="w-screen h-screen bg-transparent fixed top-0 flex justify-center items-center login scale-0 ease-in-out duration-500 z-[100]">
+        <div class="w-screen h-screen bg-transparent fixed top-0 flex justify-center items-center login scale-0 ease-in-out duration-500 border-black z-[100]">
             <div class="w-[80%] h-[50%]  rounded-md px-2 bg-white relative">
                 <!-- cancel btn  -->
                 <div class="h-[30px] w-[30px] absolute top-3 bg-transparent right-1 cursor-pointer cancel-Login">
@@ -70,7 +72,7 @@
                 </div>
                 <!-- == -->
                 <form action="" id="LoginForm">
-                    <input type="text" required placeholder="Username" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] L-username">
+                    <input type="text" required placeholder="Username" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2  text-[15px] L-username">
                     <input type="tel" required placeholder="Phone number" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] L-tel">
                     <input type="password" required placeholder="password" class="block w-[100%] outline-none my-[20px] pl-1 border-b-2 text-[15px] L-password">
                     <button type="submit" class="w-[50%] h-[30px] bg-green-500 mt-[20%] m-auto block rounded-sm hover:bg-green-600 duration-300">Login</button>
@@ -81,7 +83,7 @@
         <!-- End LOgin form  -->
 
         <!-- Sign up form  -->
-        <div class="w-screen h-screen bg-transparent fixed top-0 flex justify-center items-center signupForm scale-0 ease-in-out duration-500 z-[100]">
+        <div class="w-screen h-screen bg-transparent fixed top-0 flex justify-center items-center signupForm scale-0 ease-in-out duration-500 z-[100] border-black">
             <div class="w-[80%] h-[50%]  rounded-md px-2 bg-white relative">
                 <!-- cancel btn  -->
                 <div class="h-[30px] w-[30px] absolute top-3 bg-transparent right-1 cursor-pointer cancel-signup">
@@ -100,6 +102,9 @@
 
         </div>
         <!-- end sign up form -->
+
+
+        <!-- content -->
 
     </div>
 </body>
