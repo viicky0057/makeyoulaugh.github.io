@@ -223,7 +223,7 @@ Visitor.addEventListener('click', () => {
         ShowMessage('Please sign up to continue');
 
     } else {
-        if (localStorage.getItem('NotesApp') == null) {
+        if (localStorage.getItem('Visitor') == null) {
             ShowMessage(`<span class="txtgreen font-bold">Congratulations</span>, you have successfully purchased  our visitor plan`);
             localStorage.setItem('Visitor', 'Purchased');
         } else {
