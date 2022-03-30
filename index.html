@@ -5,17 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troll me </title>
+
     <meta name="theme-color" content="rgb(129 140 248)">
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <link rel="stylesheet" href="assets/index.e8d23591.css">
-    <link rel="shortcut icon" href="assets/react.31987f48.png" type="image/x-icon">
-    <title> Under development </title>
-
+    <link rel="stylesheet" href="assets/index.022d49ad.css">
 </head>
 
 <body class="overflow-x-hidden">
     <div class="lg:hidden">
-        <div class="w-screen bg-indigo-400  h-16 flex justify-between flex-row items-center sticky top-0 Mobile-navBar lg:hidden">
+        <div class="w-screen bg-indigo-400  h-16 flex justify-between flex-row items-center sticky top-0 z-[99] Mobile-navBar lg:hidden">
             <div class="w-fit relative p-2">
                 <img src="assets/react.31987f48.png" class="w-[45px] h-[45px] z-0 ">
                 <div class="w-[45px] h-[45px] absolute top-0 bg-transparent z-10"></div>
@@ -34,7 +33,7 @@
 
 
 
-        <div class="w-[300px] h-screen bg-black fixed top-0 right-0 p-3  z-10 text-white overflow-x-hidden ease-in-out duration-500 overflow-y-auto menu translate-x-[+300px]">
+        <div class="w-[300px] h-screen bg-black fixed top-0 right-0 p-3    text-white overflow-x-hidden z-[100] ease-in-out duration-500 overflow-y-auto menu translate-x-[+300px]">
             <!-- close btn  -->
             <div class="w-[38px] h-[35px] cursor-pointer absolute right-1 m-2 CloseMenu">
                 <div class="w-full bg-green-500 rounded-full h-[2px]   -rotate-45 "></div>
@@ -58,7 +57,7 @@
                 </div>
             </div>
             <!-- Logout -->
-            <div class="fixed bottom-0  p-4 text-red-400 cursor-pointer text-[20px] right-5">
+            <div class="fixed bottom-0  p-4 text-red-400 cursor-pointer text-[20px] right-5 logout">
                 <span>Logout</span> <img src="assets/logoutBtn.46217331.svg" class="invert-[100] w-[30px] inline ">
             </div>
         </div>
@@ -105,6 +104,38 @@
 
 
         <!-- content -->
+        <div id="">
+            <h2 class="font-bold text-center uppercase text-teal-500 text-[22px] animate-bounce p-4">Welcome to our webpage</h2>
+            <span id="Content"></span>
+            <p class="p-4 text-center">We glad to introduce that we have finally opened this website for our user to login and sign up. Our first 100 users who had signed up will be displayed on this website. And will get extra benefits i.e. <span class="text-green-600 font-bold animate-ping">50% discount</span>                on our special plans than others. So if you have not enrolled in this , signup as soon as possible <span class="text-red-400 font-bold">only 35 users are left</span> . We will try soon to upload more content to our website once it get
+                out from production. It is under developement and updates are getting pushed regularly </p>
+            <span class="text-left text-amber-500 text-[14px] p-1">You can buy our plans get 100% discount. Explore the plans below</span>
+        </div>
+        <!-- paid  plans -->
+        <div class="w-screen flex  flex-row justify-between  ">
+            <div class="w-[48%] bg-zinc-200 border-[#494747d0] block m-auto border rounded-sm p-4   hover:scale-[1.03] duration-200   hover:shadow-[#00000076] shadow-lg  mx-1">
+                <h2 class="font-bold text-center ">Notes app</h2>
+                <i class="text-[10px] text-black ">Use our notes website free for 2 Months</i>
+                <p>Price : 5 $ <br> Duration: 2 Month <br> Developer : Vicky <br> Contact me :
+                    <a href="//instagram.com/__vicky_36" class="text-blue-600 ">Instagram</a>
+                </p>
+
+                <button class="bg-green-400 px-[40px] block m-auto my-3 rounded-sm notesapp">Buy $0</button>
+            </div>
+            <div class="w-[48%] bg-zinc-200 border-[#494747d0] border rounded-sm p-4 block m-auto hover:scale-[1.03] duration-200 hover:shadow-[#00000076] shadow-lg  mx-1">
+                <h2 class="font-bold text-center ">Visitor plan</h2>
+                <i class="text-[10px] text-black ">Visit this website free for 6 Month</i>
+                <p>Price : 10 $ <br> Duration: 6 Month <br> Developer : Vicky <br> Contact me :
+                    <a href="//instagram.com/__vicky_36" class="text-blue-600 ">Instagram</a>
+                </p>
+
+                <button class="bg-green-400 px-[40px] block m-auto my-3 rounded-sm visitor">Buy $0</button>
+            </div>
+
+        </div>
+
+
+
 
     </div>
 </body>
