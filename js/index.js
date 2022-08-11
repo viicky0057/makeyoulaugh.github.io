@@ -171,7 +171,7 @@ function SignUp() {
 function ClearData(Data) {
     Array.from(Data).forEach((e) => {
         e.value = "";
-    });
+    }); 
 }
 
 // GREETINGS
